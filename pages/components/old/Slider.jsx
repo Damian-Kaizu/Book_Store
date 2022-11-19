@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination, Scrollbar, A11y, EffectFlip, EffectFade } from 'swiper';
-import { slides } from '../assets/index';
+import { slides } from '../../assets/index';
 
 // Import Swiper styles
 import "swiper/css/effect-fade";
@@ -13,7 +13,7 @@ export class Slider extends Component {
     render() {
         return (
             <>
-                <Swiper className="Testimonial_container mx-2 rounded-xl"
+                <Swiper className="Testimonial_container mx-10 rounded-xl"
                     spaceBetween={50}
                     slidesPerView={1}
                     modules={[Navigation, Pagination, Scrollbar, A11y, EffectFlip, EffectFade, Autoplay]}

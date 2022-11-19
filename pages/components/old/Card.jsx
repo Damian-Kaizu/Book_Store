@@ -4,9 +4,9 @@ function Card1({ title, image, description }) {
     return (
         <div>
 
-            <div className='bg-white text-cyan-700 w-[15rem] min-h-[22rem] shadow-lg rounded-xl overflow-hidden hover:shadow-2xl hover:scale-110 transition duration-300 ease-in'>
+            <div className='bg-white text-cyan-700 w-[15rem] min-h-[10rem] shadow-lg rounded-xl overflow-hidden hover:shadow-2xl hover:scale-110 transition duration-300 ease-in'>
 
-                <img src={image} className="lg:h-60 md:h-48 w-full object-cover object-center" />
+                <img src={image} className="lg:h-60 md:h-40 sm:h-30  w-full object-cover object-center" />
 
                 <div className="p-5 flex-col gap-3 ">
                     <div className="flex items-center gap-2 ">

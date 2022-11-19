@@ -1,8 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
-import Navbar from './components/Navbar';
-import Bookshowcase from './components/Bookshowcase';
-import Slider from './components/Slider';
+import Navbar from './components/New/Navbar';
+import Hero from './components/New/Hero';
 function Main() {
     return (
         <div>
@@ -12,10 +11,7 @@ function Main() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Navbar />
-            <div className="mx-5">
-                <Slider />
-                <Bookshowcase />
-            </div>
+            <Hero />
         </div>
     )
 }

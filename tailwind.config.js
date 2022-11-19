@@ -10,6 +10,9 @@ module.exports = {
         primary: "#D6E4E5",
         milky: "#F8EDE3",
       },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+      },
     },
   },
   plugins: [],

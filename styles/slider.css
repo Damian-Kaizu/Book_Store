@@ -1,13 +1,14 @@
 .Testimonial_container {
+  margin: 12px auto;
 }
 
 .single_testimonial {
   background: rgb(10, 31, 51);
 
-  padding: 20px;
+  padding: 10px;
   color: white;
-  margin: 0 auto;
+
   width: 80%;
-  margin-top: 2rem;
+  margin-top: 10px;
   height: 20vh;
 }
