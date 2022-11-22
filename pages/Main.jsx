@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Navbar from './components/New/Navbar';
 import Hero from './components/New/Hero';
+import SwiperContainer from './components/New/Swiper';
 function Main() {
     return (
         <div>
@@ -12,6 +13,7 @@ function Main() {
             </Head>
             <Navbar />
             <Hero />
+           
         </div>
     )
 }
