@@ -1,0 +1,13 @@
+.transparent {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke: 1px;
+  color: #000;
+  white-space: nowrap;
+}
+.transparent-text {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: #000;
+  -webkit-text-stroke: 1px;
+  color: #f17305;
+}

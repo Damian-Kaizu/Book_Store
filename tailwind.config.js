@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         primary: "#D6E4E5",
         milky: "#F8EDE3",
+        orge: "#F17305",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
