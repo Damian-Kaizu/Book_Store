@@ -6,6 +6,8 @@ import Hero from './components/New/Hero';
 import SwiperContainer from './components/New/Swiper';
 import Genres from './components/New/Genres';
 import Trending from './components/New/Trending';
+import PopularNow from './components/New/PopularNow';
+import Footer from './components/New/Footer';
 function Main() {
     return (
         <div className='mx-10'>
@@ -19,7 +21,8 @@ function Main() {
             {/* <Hero /> */}
             <Genres />
             <Trending />
-
+            <PopularNow />
+            <Footer />
         </div>
     )
 }

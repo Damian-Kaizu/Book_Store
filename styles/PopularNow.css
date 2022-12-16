@@ -1,0 +1,32 @@
+.book-content-container {
+  gap: 3rem;
+  margin: auto;
+  padding: auto;
+  display: grid;
+  grid-template-columns: 300px 300px 400px 300px;
+}
+.book-content {
+  padding: 0 10px;
+  margin: 0 20px;
+}
+@media screen and (min-width: 400px) {
+  .book-content-container {
+    grid-template-columns: 220px 220px;
+    margin: 10px;
+    padding: 10px 10px;
+  }
+  .book-content {
+    padding: 20px;
+    margin: 0 30px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .book-content-container {
+    margin: 40px;
+    grid-template-columns: 250px 250px 250px 250px;
+  }
+  .book-content {
+    padding: 20px;
+  }
+}

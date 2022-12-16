@@ -10,9 +10,11 @@ module.exports = {
         primary: "#D6E4E5",
         milky: "#F8EDE3",
         orge: "#F17305",
+        bordercolor: "#4E4E4E99",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
+        bebas: ["Bebas Neue", "cursive"],
       },
     },
   },

@@ -1,9 +1,18 @@
 .transparent {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: transparent;
-  -webkit-text-stroke: 1px;
-  color: #000;
-  white-space: nowrap;
+  -webkit-text-stroke: 2px;
+  color: #fff;
+  white-space: break-spaces;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.0992px;
+  line-height: 45px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  /* border: 2.04046px solid #ffffff; */
+  /* mix-blend-mode: overlay; */
 }
 .transparent-text {
   -webkit-text-fill-color: transparent;

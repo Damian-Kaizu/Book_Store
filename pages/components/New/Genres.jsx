@@ -15,30 +15,30 @@ function Genres() {
             </Stack>
             <Box className="mx-10">
 
-                <Grid container spacing={2}>
-                    <Grid item lg={4} md={4} className="mx-1">
+                <Grid container spacing={2} className="px-4">
+                    <Grid item lg={4} md={6} className="mx-1">
+
+                        <GenreCard img='/img/image1.png ' title="Romance " />
+                    </Grid>
+                    <Grid item lg={4} md={6} className="mx-1">
+
+                        <GenreCard img='/img/image1.png ' title="Action & Adventure" />
+                    </Grid>
+                    <Grid item lg={4} md={6} className="mx-1">
+
+                        <GenreCard img='/img/image1.png ' title="Mystery" />
+                    </Grid>
+                    <Grid item lg={4} md={6} className="mx-1">
 
                         <GenreCard img='/img/image1.png ' title="Romance" />
                     </Grid>
-                    <Grid item lg={4} md={4} className="mx-1">
+                    <Grid item lg={4} md={6} className="mx-1">
 
-                        <GenreCard img='/img/image1.png ' title="Romance" />
+                        <GenreCard img='/img/image1.png ' title="Action & Adventure" />
                     </Grid>
-                    <Grid item lg={4} md={4} className="mx-1">
+                    <Grid item lg={4} md={6} className="mx-1">
 
-                        <GenreCard img='/img/image1.png ' title="Romance" />
-                    </Grid>
-                    <Grid item lg={4} md={4} className="mx-1">
-
-                        <GenreCard img='/img/image1.png ' title="Romance" />
-                    </Grid>
-                    <Grid item lg={4} md={4} className="mx-1">
-
-                        <GenreCard img='/img/image1.png ' title="Romance" />
-                    </Grid>
-                    <Grid item lg={4} md={4} className="mx-1">
-
-                        <GenreCard img='/img/image1.png ' title="Romance" />
+                        <GenreCard img='/img/image1.png ' title="Mystery" />
                     </Grid>
                 </Grid>
             </Box>
