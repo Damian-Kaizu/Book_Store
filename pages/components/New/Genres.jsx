@@ -4,7 +4,7 @@ import React from 'react'
 import GenreCard from './GenreCard'
 function Genres() {
     return (
-        <Box className="bg-orange p-10">
+        <Box className="bg-milky p-10">
             <Stack direction='row' className='my-4 mx-10' sx={{ justifyContent: 'space-between' }}>
                 <Typography >
                     <h1 className='uppercase font-bold'>Browse Genres</h1>

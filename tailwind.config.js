@@ -8,13 +8,13 @@ module.exports = {
     extend: {
       colors: {
         primary: "#D6E4E5",
-        milky: "#F8EDE3",
+        milky: "#FEFAE7",
         orge: "#F17305",
         bordercolor: "#4E4E4E99",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
-        bebas: ["Bebas Neue", "cursive"],
+        bebas: ["BebasNeue", "cursive"],
       },
     },
   },

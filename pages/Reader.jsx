@@ -1,5 +1,5 @@
 import { React, useRef } from 'react'
-import Navbar from './components/old/Navbar'
+import Navbar from './components/New/Navbar'
 // import regeneratorRuntime from "regenerator-runtime";
 // import "babel-polyfill"
 import styles from '../styles/Home.module.css'

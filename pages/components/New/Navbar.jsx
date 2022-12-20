@@ -27,7 +27,7 @@ export default function Navbar() {
     ]
     return (
         <nav >
-            <Box sx={{ borderBottom: 1 }} className='flex  justify-between'>
+            <Box sx={{ borderBottom: 1 }} className='flex bg-white justify-between'>
 
                 <Box sx={{ borderRight: 1 }} className="flex  mx-10 justify-center items-center">
                     <span className='text-2xl text-orange-600 font-montserrat md:mr-10 sm:mr-2'>LOGO</span>
@@ -42,7 +42,7 @@ export default function Navbar() {
                             key={item.name}
                             href={item.href}
                             className={classNames(
-                                item.current ? '  text-black px-1 ' : 'text-black hover:bg-gray-300 hover:text-black',
+                                item.current ? '  text-black px-1 bg-milky' : 'text-black hover:bg-gray-300 hover:text-black',
                                 'px-3 py-2 rounded-md text-sm font-medium'
                             )}
                             aria-current={item.current ? 'page' : undefined}
@@ -52,7 +52,7 @@ export default function Navbar() {
                     </Box>
                 ))}
 
-                <Box className="flex flex-shrink-0 justify-between gap-1" sx={{ borderRight: 1 }}>
+                <Box className="flex  justify-between gap-1" sx={{ borderRight: 1 }}>
                     <Button>
                         <SearchIcon />
 
@@ -64,8 +64,12 @@ export default function Navbar() {
 
                 </Box>
 
+                <Box className='md:mr-16 sm:mr-2 '>
 
-                <Avatar className='md:mr-20 sm:mr-2' />
+
+                    <Avatar className='mx-auto' />
+                </Box>
+
 
 
             </Box>

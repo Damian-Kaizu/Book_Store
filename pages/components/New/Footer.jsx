@@ -4,8 +4,10 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <Box className="grid grid-flow-col mt-10">
-            <Box className="mx-10 ">
+
+
+        <Box className="grid sm:grid-flow-row lg:grid-flow-col  mt-10 p-10">
+            <Box className="sm:mx-auto lg:mx-10 max-w-[30rem] sm:p-10">
                 <span className='font-montserrat'>Genre</span>
                 <Typography variant="h3" sx={{ textTransform: 'uppercase', fontFamily: 'bebas' }} className="font-montserrat">Book Title</Typography>
                 <Typography variant='h4' sx={{ paddingTop: 1 }}>Author</Typography>
@@ -16,6 +18,7 @@ const Footer = () => {
                 <img src="img/image4.png" alt="" />
             </Box>
         </Box>
+
     )
 }
 

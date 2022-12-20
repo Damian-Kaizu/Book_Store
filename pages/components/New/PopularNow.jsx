@@ -6,7 +6,7 @@ import { books } from "../../assets/index"
 
 const PopularNow = () => {
     return (
-        <Box className=" bg-yellow-400 mb-20">
+        <Box className="bg-milky   mb-20">
             <Box className="mx-6 my-2 p-10">
 
                 <Stack direction="row " sx={{ justifyContent: 'space-between' }}>

@@ -2,12 +2,16 @@ import React from 'react'
 import { Box, Button, Container, createTheme, Typography } from '@mui/material'
 import styles from '../../assets/contants/style';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
-import SwiperContainer from './Swiper';
+import SwiperContainer from './SwiperContainer';
+
 
 function HeroWithSlider() {
   return (
-    <Box sx={{ borderBottom: 1 }} id="home" className={`flex md:flex-row flex-col ${styles.paddingX}  ${styles.paddingY}`}>
-      <div className={`Hero-text flex-1 ${styles.flexStart} flex-col x1:px-0 sm:px-10 px-8`}>
+
+
+
+    <Box sx={{ borderBottom: 1 }} id="home" className={`flex md:flex-row flex-col  ${styles.paddingX}  ${styles.paddingY}`}>
+      <div className={` flex-1 ${styles.flexStart} flex-col sm:px-16 md:ml-20 `}>
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-montserrat font-bold ss:text-[72px] text-[52px] text-black ss:leading-[80px] leading-[75px]">
@@ -40,6 +44,7 @@ function HeroWithSlider() {
       </div>
 
     </Box >
+
   )
 }
 

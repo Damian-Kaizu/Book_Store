@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import "../styles/slider.css";
 import "../styles/card.css";
 import "../styles/swiper.css";
+
 import "../styles/PopularNow.css";
 import "../styles/genrecard.css";
 import { useState, useEffect } from "react";
