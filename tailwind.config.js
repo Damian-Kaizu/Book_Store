@@ -10,6 +10,7 @@ module.exports = {
         primary: "#D6E4E5",
         milky: "#FEFAE7",
         orge: "#F17305",
+        grey: "#DADADA",
         bordercolor: "#4E4E4E99",
       },
       fontFamily: {

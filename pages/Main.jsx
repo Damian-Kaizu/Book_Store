@@ -21,7 +21,7 @@ function Main() {
             <Navbar />
             <ReadNow />
             <HeroWithSlider />
-            {/* <Hero /> */}
+            <Hero />
             <Genres />
             <Trending />
             <PopularNow />
